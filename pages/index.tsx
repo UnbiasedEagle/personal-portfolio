@@ -4,7 +4,7 @@ import HomeSection from '../components/HomeSection';
 
 const Home: NextPage = () => {
   return (
-    <div className='max-w-6xl px-4 mx-auto'>
+    <div className='max-w-6xl px-4 mx-auto h-[2000px]'>
       <Navbar />
       <main>
         <HomeSection />

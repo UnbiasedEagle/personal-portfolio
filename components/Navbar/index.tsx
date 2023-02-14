@@ -31,7 +31,10 @@ const Navbar: React.FC = () => {
 
   return (
     <>
-      <header ref={navRef} className='flex items-center justify-between mt-10'>
+      <header
+        ref={navRef}
+        className='fixed top-0 z-10 flex items-center justify-between w-full max-w-6xl px-4 mt-10 -translate-y-2/4 -translate-x-2/4 left-1/2'
+      >
         <Logo />
         <NavLinks />
         <MobileMenuToggle

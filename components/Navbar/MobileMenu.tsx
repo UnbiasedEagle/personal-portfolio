@@ -28,17 +28,17 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ showMobileMenu }) => {
       ref={linksContainerRef}
       className={`${
         showMobileMenu ? 'border-b' : ''
-      } md:hidden rounded-md overflow-hidden mt-4 duration-300`}
+      } md:hidden z-10 fixed top-14 left-0 bg-gray-100 w-full rounded-md overflow-hidden mt-4 duration-300`}
     >
       <ul ref={linksRef}>
         {navLinks.map((link) => {
           return (
             <li
-              className='py-2 group cursor-pointer hover:pl-2 duration-300 hover:bg-gray-100 rounded-md'
+              className='py-2 duration-300 rounded-md cursor-pointer group hover:pl-2 hover:bg-gray-200'
               key={link.label}
             >
               <Link
-                className='navlink inline-block w-full group-hover:text-primary'
+                className='inline-block w-full px-4 navlink group-hover:text-primary'
                 href={link.href}
               >
                 {link.label}

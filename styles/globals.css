@@ -6,6 +6,10 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    scroll-behavior: smooth !important;
+  }
+
   body {
     font-family: Poppins, sans-serif;
   }
@@ -13,7 +17,7 @@
 
 @layer components {
   .navlink {
-    @apply font-navlink text-zinc-500 text-lg;
+    @apply text-lg font-navlink text-zinc-500;
   }
 
   .navlink:hover {
