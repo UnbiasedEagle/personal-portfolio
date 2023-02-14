@@ -3,25 +3,25 @@ import { RxHamburgerMenu } from 'react-icons/rx';
 
 type MobileMenuToggleProps = {
   showMobileMenu: boolean;
-  openMenu: () => void;
-  closeMenu: () => void;
+  toggleMenu: () => void;
 };
 
 const MobileMenuToggle: React.FC<MobileMenuToggleProps> = ({
   showMobileMenu,
-  closeMenu,
-  openMenu,
+  toggleMenu,
 }) => {
   return (
-    <div className='md:hidden'>
-      {showMobileMenu ? (
-        <CgClose onClick={closeMenu} className='cursor-pointer text-xl' />
-      ) : (
-        <RxHamburgerMenu
-          onClick={openMenu}
-          className='cursor-pointer text-xl'
-        />
-      )}
+    <div onClick={toggleMenu} className='md:hidden toggle-menu'>
+      <CgClose
+        className={`${
+          showMobileMenu ? 'block' : 'hidden'
+        } cursor-pointer h-full w-full text-xl`}
+      />
+      <RxHamburgerMenu
+        className={`${
+          showMobileMenu ? 'hidden' : 'block'
+        } cursor-pointer h-full w-full text-xl`}
+      />
     </div>
   );
 };
