@@ -3,7 +3,6 @@ export const navLinks = [
   { label: 'About', href: '#about' },
   { label: 'Tech Stack', href: '#tech-stack' },
   { label: 'Projects', href: '#projects' },
-  { label: 'Contact', href: '#contact' },
 ];
 
 export const workExperience = [
@@ -33,5 +32,29 @@ export const workExperience = [
     jobType: 'Internship',
     jobLocation: 'Remote',
     duration: 'Mar 1 2021 - Aug 31 2021',
+  },
+];
+
+export const techLogos = [
+  { label: 'html5', icon: '/images/html5.svg' },
+  { label: 'css3', icon: '/images/css3.svg' },
+  { label: 'javascript', icon: '/images/javascript.svg' },
+  { label: 'typescript', icon: '/images/typescriptlang-icon.svg' },
+  { label: 'react', icon: '/images/reactjs-icon.svg' },
+  { label: 'nextjs', icon: '/images/next-js.svg' },
+  { label: 'tailwindcss', icon: '/images/tailwindcss-icon.svg' },
+  { label: 'nodejs', icon: '/images/nodejs-icon.svg' },
+  { label: 'mongodb', icon: '/images/mongodb-icon.svg' },
+  { label: 'redux', icon: '/images/redux.svg' },
+  { label: 'expressjs', icon: '/images/expressjs-icon.svg' },
+];
+
+export const projects = [
+  {
+    name: 'MusicZone',
+    githubURL: 'https://github.com/UnbiasedEagle/music-zone',
+    liveURL: 'https://musix-zone.netlify.app/',
+    image: '/images/musiczone1.webp',
+    description: 'A modern music player built using React',
   },
 ];

@@ -12,6 +12,7 @@ type ExperienceCardProps = {
 const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience }) => {
   const { company, companyLink, role, jobLocation, jobType, duration } =
     experience;
+
   return (
     <article className='pb-6 border-b mb-7'>
       <div className='flex items-center justify-between'>

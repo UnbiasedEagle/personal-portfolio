@@ -3,7 +3,7 @@ import WorkExperience from './WorkExperience';
 
 const AboutSection: React.FC = () => {
   return (
-    <section id='about' className='py-4'>
+    <section id='about'>
       <AboutMe />
       <WorkExperience />
     </section>

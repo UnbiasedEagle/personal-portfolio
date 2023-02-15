@@ -7,3 +7,11 @@ export type Experience = {
   jobLocation: string;
   duration: string;
 };
+
+export type Project = {
+  name: string;
+  githubURL: string;
+  liveURL: string;
+  image: string;
+  description: string;
+};
