@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { FaGithub, FaLinkedinIn, FaRegEnvelope } from 'react-icons/fa';
 
 const FooterContent: React.FC = () => {
