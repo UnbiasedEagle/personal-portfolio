@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { useEffect, useRef } from 'react';
-import { navLinks } from '../../content/navbar/links';
+import { navLinks } from '../../content/';
 
 type MobileMenuProps = {
   showMobileMenu: boolean;
