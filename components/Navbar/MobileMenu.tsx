@@ -28,7 +28,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ showMobileMenu }) => {
       ref={linksContainerRef}
       className={`${
         showMobileMenu ? 'border-b' : ''
-      } md:hidden z-10 fixed top-14 left-0 bg-gray-100 w-full rounded-md overflow-hidden mt-4 duration-300`}
+      } md:hidden z-20 fixed top-14 left-0 bg-gray-100 w-full rounded-md overflow-hidden mt-4 duration-300`}
     >
       <ul ref={linksRef}>
         {navLinks.map((link) => {
