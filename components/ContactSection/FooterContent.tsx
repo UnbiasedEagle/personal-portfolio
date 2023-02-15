@@ -10,7 +10,7 @@ const FooterContent: React.FC = () => {
       </h3>
       <div className='flex items-center justify-center space-x-8'>
         <a
-          href='https://www.linkedin.com/in/saurabh-singh-230936189/'
+          href='https://www.linkedin.com/in/devsaurabhsingh/'
           rel='noreferrer'
           className='flex items-center justify-center w-12 h-12 duration-300 border border-white rounded-full cursor-pointer group hover:bg-white'
         >
@@ -24,7 +24,7 @@ const FooterContent: React.FC = () => {
           <FaGithub className='text-2xl text-white group-hover:text-primary' />
         </a>
         <a
-          href='mailto:imsaurabhsingh007@gmail.com'
+          href='mailto:devsaurabhsingh@gmail.com'
           className='flex items-center justify-center w-12 h-12 border border-white rounded-full cursor-pointer hover:bg-white group'
         >
           <FaRegEnvelope className='text-2xl text-white group-hover:text-primary' />

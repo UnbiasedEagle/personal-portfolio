@@ -2,21 +2,21 @@ import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 
 const SocialLinks: React.FC = () => {
   return (
-    <div className='ml-12 hidden md:flex items-center'>
+    <div className='items-center hidden ml-12 md:flex'>
       <a
         target='_blank'
         className='mr-5'
         href='https://github.com/UnbiasedEagle'
         rel='noreferrer'
       >
-        <AiFillGithub className='navlink text-2xl' />
+        <AiFillGithub className='text-2xl navlink' />
       </a>
       <a
         target='_blank'
-        href='https://www.linkedin.com/in/saurabh-singh-230936189/'
+        href='https://www.linkedin.com/in/devsaurabhsingh/'
         rel='noreferrer'
       >
-        <AiFillLinkedin className='navlink text-2xl' />
+        <AiFillLinkedin className='text-2xl navlink' />
       </a>
     </div>
   );

@@ -11,7 +11,7 @@ const StartProject: React.FC = () => {
         buy the coffee.
       </p>
       <a
-        href='mailto:imsaurabhsingh007@gmail.com'
+        href='mailto:devsaurabhsingh@gmail.com'
         className='flex items-center px-8 py-4 duration-300 border-2 rounded-full cursor-pointer hover:bg-primary border-primary'
       >
         <FaRegHandPeace className='mr-1' />
