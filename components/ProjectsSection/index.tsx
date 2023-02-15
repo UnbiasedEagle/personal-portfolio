@@ -3,7 +3,7 @@ import ProjectCard from './ProjectCard';
 
 const ProjectsSection: React.FC = () => {
   return (
-    <section id='projects' className='py-36'>
+    <section id='projects' className='pb-36'>
       <h2 className='section-heading'>Projects</h2>
       <p className='text-xl font-normal text-gray-600'>
         Things I’ve built so far
