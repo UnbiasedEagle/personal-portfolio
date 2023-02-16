@@ -12,7 +12,14 @@
 
   body {
     font-family: Poppins, sans-serif;
-    background-color: #edf2f8;
+    background-image: linear-gradient(
+      to right top,
+      #edf2f8,
+      #f2f5fa,
+      #f7f8fc,
+      #fbfbfd,
+      #ffffff
+    );
   }
 }
 
