@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import Backdrop from './Backdrop';
 import Logo from './Logo';
 import MobileMenu from './MobileMenu';
 import MobileMenuToggle from './MobileMenuToggle';
@@ -33,7 +34,7 @@ const Navbar: React.FC = () => {
     <>
       <header
         ref={navRef}
-        className='fixed top-0 z-20 flex items-center justify-between w-full max-w-6xl p-4 backdrop-blur-sm -translate-x-2/4 left-1/2'
+        className='fixed top-0 z-30 flex items-center justify-between w-full max-w-6xl p-4 backdrop-blur-sm -translate-x-2/4 left-1/2'
       >
         <Logo />
         <NavLinks />
@@ -43,6 +44,7 @@ const Navbar: React.FC = () => {
         />
       </header>
       <MobileMenu showMobileMenu={showMobileMenu} />
+      <Backdrop show={showMobileMenu} />
     </>
   );
 };

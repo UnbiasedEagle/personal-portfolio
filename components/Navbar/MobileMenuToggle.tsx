@@ -15,7 +15,7 @@ const MobileMenuToggle: React.FC<MobileMenuToggleProps> = ({
       <CgClose
         className={`${
           showMobileMenu ? 'block' : 'hidden'
-        } cursor-pointer text-xl`}
+        } cursor-pointer text-white text-xl`}
       />
       <RxHamburgerMenu
         className={`${
