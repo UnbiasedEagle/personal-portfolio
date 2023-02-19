@@ -61,7 +61,7 @@ export const projects = [
     name: 'Magic Match',
     githubURL: 'https://github.com/UnbiasedEagle/magic-match',
     liveURL: 'https://magic-match-nextjs.vercel.app/',
-    image: '/images/magic-match.jpg',
+    image: '/images/magic-match.webp',
     description: 'Memory card game built using Next.js and TypeScript',
   },
 ];
