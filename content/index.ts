@@ -57,4 +57,11 @@ export const projects = [
     image: '/images/musiczone1.webp',
     description: 'A modern music player built using React',
   },
+  {
+    name: 'Magic Match',
+    githubURL: 'https://github.com/UnbiasedEagle/magic-match',
+    liveURL: 'https://magic-match-nextjs.vercel.app/',
+    image: '/images/magic-match.jpg',
+    description: 'Memory card game built using Next.js and TypeScript',
+  },
 ];
