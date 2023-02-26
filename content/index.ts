@@ -51,6 +51,14 @@ export const techLogos = [
 
 export const projects = [
   {
+    name: 'ESSENCE',
+    githubURL: 'https://github.com/UnbiasedEagle/essence-store',
+    liveURL: 'https://essence-store.vercel.app/',
+    image: '/images/essence.jpg',
+    description:
+      'Full Stack Ecommerce Store built using MERN Stack, Redux Toolkit and Stripe',
+  },
+  {
     name: 'Workable',
     githubURL: 'https://github.com/UnbiasedEagle/workable',
     liveURL: 'https://workable.vercel.app/',
