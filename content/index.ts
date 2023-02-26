@@ -51,6 +51,13 @@ export const techLogos = [
 
 export const projects = [
   {
+    name: 'Workable',
+    githubURL: 'https://github.com/UnbiasedEagle/workable',
+    liveURL: 'https://workable.vercel.app/',
+    image: '/images/workable.jpg',
+    description: 'Job tracking portal built using MERN Stack',
+  },
+  {
     name: 'MusicZone',
     githubURL: 'https://github.com/UnbiasedEagle/music-zone',
     liveURL: 'https://musix-zone.netlify.app/',
