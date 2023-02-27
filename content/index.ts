@@ -59,9 +59,9 @@ export const projects = [
       'Full Stack Ecommerce Store built using MERN Stack, Redux Toolkit and Stripe',
   },
   {
-    name: 'Workable',
-    githubURL: 'https://github.com/UnbiasedEagle/workable',
-    liveURL: 'https://workable.vercel.app/',
+    name: 'Job Diary',
+    githubURL: 'https://github.com/UnbiasedEagle/job-diary',
+    liveURL: 'https://job-diary.vercel.app/',
     image: '/images/workable.jpg',
     description: 'Job tracking portal built using MERN Stack',
   },
