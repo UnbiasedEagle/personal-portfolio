@@ -63,7 +63,7 @@ export const projects = [
     githubURL: 'https://github.com/UnbiasedEagle/job-diary',
     liveURL: 'https://job-diary.vercel.app/',
     image: '/images/workable.jpg',
-    description: 'Job tracking portal built using MERN Stack',
+    description: 'Job tracking manager built using MERN Stack',
   },
   {
     name: 'MusicZone',
