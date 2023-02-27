@@ -17,7 +17,7 @@ export const workExperience = [
   },
   {
     id: '2',
-    role: 'Full Stack Enginner',
+    role: 'Full Stack Engineer',
     company: 'ZeeQ Technologies',
     companyLink: 'https://zeeq.io/',
     jobType: 'Internship',
