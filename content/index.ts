@@ -51,19 +51,20 @@ export const techLogos = [
 
 export const projects = [
   {
-    name: 'ESSENCE',
-    githubURL: 'https://github.com/UnbiasedEagle/essence-store',
-    liveURL: 'https://essence-store.vercel.app/',
-    image: '/images/essence.jpg',
+    name: 'Taskify',
+    githubURL: 'https://github.com/UnbiasedEagle/taskify',
+    liveURL: 'https://taskify-live.vercel.app/',
+    image: '/images/taskify.jpg',
     description:
-      'Full Stack Ecommerce Store built using MERN Stack, Redux Toolkit and Stripe',
+      'Manage projects visually. Organize tasks, collaborate, and boost efficiency.',
   },
   {
-    name: 'Job Diary',
-    githubURL: 'https://github.com/UnbiasedEagle/job-diary',
-    liveURL: 'https://job-diary.vercel.app/',
-    image: '/images/workable.jpg',
-    description: 'Job tracking manager built using MERN Stack',
+    name: 'GameHub',
+    githubURL: 'https://github.com/UnbiasedEagle/game-hub',
+    liveURL: 'https://game-hub-dev.vercel.app/',
+    image: '/images/gamehub.jpg',
+    description:
+      'Video game discovery web app that helps you find new and interesting games to play.',
   },
   {
     name: 'MusicZone',
