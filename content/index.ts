@@ -11,27 +11,18 @@ export const workExperience = [
     role: 'Software Engineer',
     company: 'achieve.ai',
     companyLink: 'https://achieve.ai/',
-    jobType: 'Internship',
+    jobType: 'Full Time',
     jobLocation: 'Remote',
-    duration: 'Aug 1 2022 - Dec 31 2022',
+    duration: 'July 2023 - Present',
   },
   {
     id: '2',
-    role: 'Full Stack Engineer',
-    company: 'ZeeQ Technologies',
-    companyLink: 'https://zeeq.io/',
+    role: 'Software Engineer',
+    company: 'achieve.ai',
+    companyLink: 'https://achieve.ai/',
     jobType: 'Internship',
     jobLocation: 'Remote',
-    duration: 'Oct 1 2021 - Mar 31 2022',
-  },
-  {
-    id: '3',
-    role: 'Full Stack Engineer',
-    company: 'Skynox Tech',
-    companyLink: 'https://skynox.tech/',
-    jobType: 'Internship',
-    jobLocation: 'Remote',
-    duration: 'Mar 1 2021 - Aug 31 2021',
+    duration: 'August 2022 - June 2023',
   },
 ];
 
@@ -51,12 +42,28 @@ export const techLogos = [
 
 export const projects = [
   {
-    name: 'Taskify',
-    githubURL: 'https://github.com/UnbiasedEagle/taskify',
-    liveURL: 'https://taskify-live.vercel.app/',
-    image: '/images/taskify.jpg',
+    name: 'StyleStride',
+    githubURL: 'https://github.com/UnbiasedEagle/StyleStride',
+    liveURL: 'https://stylestride.vercel.app/',
+    image: '/images/style-stride.jpg',
     description:
-      'Manage projects visually. Organize tasks, collaborate, and boost efficiency.',
+      'Full Stack E-Commerce Store with Admin Dashboard for Selling Shoes.',
+  },
+  {
+    name: 'BudgetBuddy',
+    githubURL: 'https://github.com/UnbiasedEagle/budget-buddy',
+    liveURL: 'https://budgetbuddyonline.vercel.app/',
+    image: '/images/budget-buddy.jpg',
+    description:
+      'Full Stack app for managing transactions, analyzing spending patterns, and tracking financial data.',
+  },
+  {
+    name: 'CodeVault',
+    githubURL: 'https://github.com/UnbiasedEagle/code-vault',
+    liveURL: 'https://codevaultonline.vercel.app/',
+    image: '/images/code-vault.jpg',
+    description:
+      'Full Stack app to efficiently organize and search code snippets with advanced tagging',
   },
   {
     name: 'GameHub',
@@ -65,19 +72,5 @@ export const projects = [
     image: '/images/gamehub.jpg',
     description:
       'Video game discovery web app that helps you find new and interesting games to play.',
-  },
-  {
-    name: 'MusicZone',
-    githubURL: 'https://github.com/UnbiasedEagle/music-zone',
-    liveURL: 'https://musix-zone.netlify.app/',
-    image: '/images/musiczone1.webp',
-    description: 'A modern music player built using React',
-  },
-  {
-    name: 'Magic Match',
-    githubURL: 'https://github.com/UnbiasedEagle/magic-match',
-    liveURL: 'https://magic-match-nextjs.vercel.app/',
-    image: '/images/magic-match.webp',
-    description: 'Memory card game built using Next.js and TypeScript',
   },
 ];
